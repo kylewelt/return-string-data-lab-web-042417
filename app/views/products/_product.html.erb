@@ -1,0 +1,11 @@
+<tr>
+  <td><%= product.name %></td>
+  <td class='product-description-<%= product.id %>'>
+    <%= truncate product.description %>
+  </td>
+  <td class='product-inventory-<%= product.id %>'>
+  </td>
+  <td>
+    <button class="js-more" data-id="<%= product.id %>">More Info</button>
+  </td>
+</tr>
